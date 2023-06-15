@@ -1,4 +1,4 @@
-# Langchain, Pinecone, and GPT with Next.js - Full Stack Starter
+# Langchain, Pinecone, GPT and Upstash with Next.js - Full Stack Starter
 
 This is a basic starter project for building with the following tools and APIs:
 
@@ -6,6 +6,7 @@ This is a basic starter project for building with the following tools and APIs:
 - LangchainJS
 - Pineceone Vector Database
 - GPT3
+- Upstash (Redis db)
 
 When I started diving into all of this, I felt while I understood some of the individual pieces, it was hard to piece together everything into a cohesive project. I hope this project is useful for anyone looking to build with this stack, and just needing something to start with.
 
@@ -73,3 +74,8 @@ If the initialization takes longer, then it will fail the first time you try to 
 ### Getting your data
 
 I recommend checking out [GPT Repository Loader](https://github.com/mpoon/gpt-repository-loader) which makes it simple to turn any GitHub repo into a text format, preserving the structure of the files and file contents, making it easy to chop up and save into pinecone using my codebase.
+
+### Tom humble contribution
+- Morpho Documentation adapted
+- Upstash - Redis db for limit rate
+- Link feature added: what is important is to verify the truth of what GPT says. By adapting the previous work, one can get the link of the data where gpt learned from.
