@@ -78,4 +78,5 @@ I recommend checking out [GPT Repository Loader](https://github.com/mpoon/gpt-re
 ### Tom humble contribution
 - Morpho Documentation adapted
 - Upstash - Redis db for limit rate
-- Link feature added: what is important is to verify the truth of what GPT says. By adapting the previous work, one can get the link of the data where gpt learned from.
+- Link feature added: what is important is to verify the truth of what GPT says. By adapting the previous work, one can get the link of the data where gpt learned from
+- Adapting the UX.
