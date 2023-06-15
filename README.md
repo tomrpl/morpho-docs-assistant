@@ -15,9 +15,9 @@ We are building an app that takes text (text files), embeds them into vectors, s
 
 For anyone wondering what Semantic search is, here is an overview (taken directly from ChatGPT4):
 
-__Semantic search refers to a search approach that understands the user's intent and the contextual meaning of search queries, instead of merely matching keywords.__
+**Semantic search refers to a search approach that understands the user's intent and the contextual meaning of search queries, instead of merely matching keywords.**
 
-__It uses natural language processing and machine learning to interpret the semantics, or meaning, behind queries. This results in more accurate and relevant search results. Semantic search can consider user intent, query context, synonym recognition, and natural language understanding. Its applications range from web search engines to personalized recommendation systems.__
+**It uses natural language processing and machine learning to interpret the semantics, or meaning, behind queries. This results in more accurate and relevant search results. Semantic search can consider user intent, query context, synonym recognition, and natural language understanding. Its applications range from web search engines to personalized recommendation systems.**
 
 ## Running the app
 
@@ -44,7 +44,7 @@ git clone git@github.com:dabit3/semantic-search-nextjs-pinecone-langchain-chatgp
 
 3. Copy `.example.env.local` to a new file called `.env.local` and update with your API keys and environment.
 
-    __Be sure your environment is an actual environment given to you by Pinecone, like `us-west4-gcp-free`__
+   **Be sure your environment is an actual environment given to you by Pinecone, like `us-west4-gcp-free`**
 
 4. (Optional) - Add your own custom text or markdown files into the `/documents` folder.
 
@@ -62,7 +62,7 @@ If the initialization takes longer, then it will fail the first time you try to 
 
 ### Running a query
 
-__The pre-configured app data is about the [Lens protocol developer documentation](https://docs.lens.xyz/docs/overview), so it will only understand questions about it unless you replace it with your own data. Here are a couple of questions you might ask it with the default data__
+**The pre-configured app data is about the [Lens protocol developer documentation](https://docs.lens.xyz/docs/overview), so it will only understand questions about it unless you replace it with your own data. Here are a couple of questions you might ask it with the default data**
 
 1. What is the difference between Lens and traditional social platforms
 2. What is the difference between the Lens SDK and the Lens API
